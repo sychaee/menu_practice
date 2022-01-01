@@ -13,7 +13,7 @@ import Mindmap from "./routes/Mindmap";
 function App() {
   return (
     <div>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Navigation></Navigation>
           <Routes>
           <Route exact path="/home" element={<Home/>} />
