@@ -7,13 +7,7 @@ function Navigation() {
         <div className="Navigation">
             <Navbar bg="dark" variant="dark">
                 <Navbar.Brand href="/home">
-                <img
-          alt=""
-          src="/island.svg"
-          width="30"
-          height="30"
-          className="d-inline-block align-top"
-        />{' '}
+                
                     SUMM
                 </Navbar.Brand>
                 <Nav className="me-auto">
